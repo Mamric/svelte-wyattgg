@@ -36,7 +36,7 @@
       <a
         class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-red-500 mx-2 pb-1 text-4xl font-bold"
         href="/"
-        title="Wyatt.gg Home">Wyatt.gg</a
+        title="Wyatt.gg Home" sveltekit:prefetch>Wyatt.gg</a
       >
       <div>
         <span class="text-white">
@@ -45,7 +45,9 @@
               href={link.url}
               title={link.title}
               target={link.target}
-              class={linkStyles + " hover:underline"}>{link.text}</a
+              class={linkStyles + " hover:underline"}
+              sveltekit:prefetch
+              >{link.text}</a
             >
           {/each}
         </span>

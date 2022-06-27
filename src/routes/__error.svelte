@@ -5,7 +5,9 @@
   <h2 class="text-white text-3xl text-center my-3 italic">
     "Ah fuck, I can't believe you've done this"
   </h2>
-  <a href="/" class="text-white text-center text-xl hover:underline"
-    >← Back to homepage</a
+  <a
+    href="/"
+    class="text-white text-center text-xl hover:underline"
+    sveltekit:prefetch>← Back to homepage</a
   >
 </main>
